@@ -25,6 +25,8 @@ e.g.: [http://localhost:5820](http://localhost:5820) or [http://docker.local:582
 ## Default admin credentials
 
 The default administrator credentials (as stated by the [Stardog documentation](http://docs.stardog.com/#_insecurity)) are the following:
-username: `admin`
-password: admin`
+
+- username: `admin`
+- password: `admin`
+
 For more information on security enforcement in Stardog, check the [official documentation](http://docs.stardog.com/#_security).
