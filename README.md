@@ -3,7 +3,7 @@
 
 ## Build 
 
-- download stardog release .zip (e.g. `stardog-4.1.1.zip`) and `stardog-license-key.bin` license file (community or enterprise) from [complexible stardog homepage](http://stardog.com/) and save both in this folder.
+- download stardog release .zip (e.g. `stardog-4.1.1.zip`) and `stardog-license-key.bin` license file (community or enterprise) from [http://stardog.com/#download](http://stardog.com/#download) and save both in this folder.
 - `docker build -t stardog:4.1.1 .`
 
 
