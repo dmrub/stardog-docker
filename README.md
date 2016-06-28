@@ -18,7 +18,7 @@ docker run -d --name stardog -p 5820:5820 stardog:4.1.1
 
 ## Access
 
-open [http://<<your-docker-host-ip>>:5820](http://<your-docker-host-ip>:5820) in your browser for the stardog admin web interface. 
+open [http://< your-docker-host-ip >:5820](http://<your-docker-host-ip>:5820) in your browser for the stardog admin web interface. 
 e.g.: [http://localhost:5820](http://localhost:5820) or [http://docker.local:5820](http://docker.local:5820)
 
 
