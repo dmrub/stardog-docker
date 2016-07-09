@@ -9,11 +9,27 @@
 
 ## Run
 
-```
+```shell
 docker run -d --name stardog -p 5820:5820 stardog:4.1.1
 ```
 
 **HINT:** A default database named `stardog` will be created.
+
+## Data
+
+By default `STARDOG_HOME` is set to `/data`, this is where your runtime data / database data goes.
+
+To a volume container run:
+
+```shell
+docker create -v /data --name stardog-data alpine /bin/true
+```
+
+To run the stardog image using this volume do:
+
+```shell
+docker run -d --name stardog -p 5820:5820 --volumes-from stardog-data stardog:4.1.1
+```
 
 
 ## Access
